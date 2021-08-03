@@ -11,29 +11,6 @@ nft deployed to: https://mumbai.polygonscan.com/address/0x87B13D63aF898A7C876001
 +-Possible Improvement:_ In the "NFTMarket.sol" File Add an Administrator Fee that is a % of the Payment of Every Sale.
 
 ### Running this project
-
-#### Gitpod
-
-To deploy this project to Gitpod, follow these steps:
-
-1. Click this link to deploy
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/dabit3/polygon-ethereum-nextjs-marketplace)
-
-2. In __pages/index.js__, pass in the RPC address given to you by GitPod to the call to `JsonRpcProvider` function:
-
-```javascript
-/* update this: */
-const provider = new ethers.providers.JsonRpcProvider()
-
-/* to this: */
-const provider = new ethers.providers.JsonRpcProvider("https://8545-youendpoint.gitpod.io/")
-```
-
-3. Import the RPC address given to you by GitPod into your MetaMask wallet
-
-![MetaMask RPC Import](wallet.png)
-
 #### Local setup
 
 To run this project locally, follow these steps.
